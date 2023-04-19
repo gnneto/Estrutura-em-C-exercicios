@@ -1,8 +1,5 @@
-/*
-Escreva um programa que leia dois valores inteiros e efetueas seguintes operações matemáticas: 
-adição, subtração, multiplicação, divisão e módulo (resto da divisão).  
-Para os valores de entrada 5 e 2
-*/
+/*Escreva um programa que leia dois valores inteiros e efetueas seguintes operações matemáticas: 
+adição, subtração, multiplicação, divisão e módulo (resto da divisão).*/
 
 #include <stdio.h>
 int main(){
