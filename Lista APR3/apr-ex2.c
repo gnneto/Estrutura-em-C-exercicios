@@ -2,23 +2,25 @@
 a. A menor altura do grupo  <--->  b. A maior altura do grupo;*/
 
 
-#include <Stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
+    float altura, maior = 0, menor = 9999, cont;
 
-    float altura, maior = 0, menor, cont;
-
-    for(cont = 1; cont <= 15; cont++){
+    for (cont = 1; cont <= 15; cont++) {
         printf("Digite uma altura: ");
         scanf("%f", &altura);
-        if(altura > maior){
+
+        if (altura > maior) {
             maior = altura;
-        }else{
+        }
+
+        if (altura < menor) {
             menor = altura;
         }
     }
+
     printf("\n\nA maior altura eh: %.2f\nE a menor altura eh: %.2f", maior, menor);
 
-
-return 0;
+    return 0;
 }
