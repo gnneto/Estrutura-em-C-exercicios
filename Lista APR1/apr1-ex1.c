@@ -1,6 +1,12 @@
 /*Escreva um programa que leia dois valores inteiros e efetueas seguintes operações matemáticas: 
 adição, subtração, multiplicação, divisão e módulo (resto da divisão).*/
 
+
+
+// asdasdass
+
+
+
 #include <stdio.h>
 int main(){
 
